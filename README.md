@@ -1,7 +1,7 @@
 # custom_object_detection
 
 Nella cartella pictures_with_detections trovi tutte le immagini con le relative bounding box predette, mentre nella cartella detected ci sono i file .txt delle previsioni nel formato 
-  <classe> <confidenza> <left> <right> <width> <height>
+\<classe\> \<confidenza\> \<left\> \<right\> \<width\> \<height\>
   
 Per quanto riguarda il training, come ti dicevo, ho sfruttato le risorse messe a disposizione da Google. La rete è stata addestrata sulle immagini che mi hai fornito, ma solo parzialmente, quella che ho utilizzato ha completato circa 1300 epoche su 6000 totali.
 Mi sono basato sul github https://github.com/AlexeyAB/darknet per l'addestramento della rete, ho caricato il file di configurazione .cfg nella cartella train in questo repository. Per quanto riguarda l'inizializzazione dei pesi, ho trovato un file associato ad un tutorial e l'ho sfruttato.
